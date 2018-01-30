@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: #ffffff;
+}
+
+.name {
+    float:left;
+    position: relative;
+    top: 0px;
+    left:250px;
+    width: auto;
+    background-color:#999;
+    text-align: left;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    padding-top: 20px;
+
+}
+
+#links {
+    float: left;
+    position: relative;
+    right: 0px;
+    background-color:#eee;
+    width: auto;
+    text-align: left;
+    padding-left: 20px;
+    margin-bottom: 10px;
+    padding-right: 10px;
+    padding-top: 50px;
+    font-size: 18px;
+}
+
+a {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#about {
+    float: left;
+    position: relative;
+    left: 150px;
+    text-align: center;
+    background-color:#eee;
+    width: 30%;
+    text-align: justify;
+}
+
+#pic {
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 10px;
+}
+
+#connect {
+    position: relative;
+    width: 300px;
+    float: left;
+    background-color: pink;
+    left: 300px;
+    top: 40px;
+    text-align: center;
+}
+
+#summary {
+    clear: both;
+    float: left;
+    position: relative;
+    background-color: lightgray;
+    padding: 10px;
+    width: 100%;
+}
+
+#pic {
+    float: left;
+    width: auto;
+    background-color: pink;
+}
+
+p {
+    position: relative;
+    margin-left: 20px;
+    margin-left: 20px;
+    padding: 10px;
+}
+
+.connector {
+    float: left;
+    width: 33.333%;
+    background-color: lightgrey;
+}
+
+footer {
+    clear: both;
+    position: fixed;
+    bottom: 10px;
+    left: 0px;
+    width: 100%;
+    height: 20px;
+    padding-bottom: 5px;
+    background-color: floralwhite;
+    text-align: center;
+}
