@@ -82,7 +82,7 @@ a {
     margin-bottom: 10px;
 }
 
-.sidebar {
+aside {
     position: relative;
     width: 270px;
     float: left;
@@ -175,6 +175,41 @@ p {
     border-top-color: #dddddd;
     border-top-width: 2px;
 }
+
+.pro {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background-color: #4aaaa5;
+}
+
+.pro-1 {
+    top: 20px;
+}
+
+.pro-2 {
+    top: 20px;
+    left: 217.5px;
+}
+
+.pro-3 {
+    top: 20px;
+    left: 433px;
+}
+
+.pro-4 {
+    top: 205px;
+}
+
+.pro-5 {
+    top: 205px;
+    left: 217.5px;
+}
+
+.pro-6 {
+    top: 205px;
+    left: 433px;
+}   
 
 .email_box {
     float: left;
