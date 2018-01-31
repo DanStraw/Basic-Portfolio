@@ -45,6 +45,8 @@ header {
 a {
     padding-left: 15px;
     padding-right: 15px;
+    text-decoration: none;
+    color: #777777;
 }
 
 #about {
@@ -59,14 +61,18 @@ a {
     border-color: #dddddd;
     border-width: 2px;
     border-style: solid;
+    color:  #4aaaa5;
 }
 
 #Me {
     text-indent: 20px;
+    position: relative;
+    left: 5%;
     padding-bottom: 5px;
-    border-bottom-color: #666666;
+    border-bottom-color:#dddddd;
     border-bottom-width: 3px;
     border-bottom-style: solid;
+    width: 90%;
 }
 
 #pic {
@@ -89,12 +95,16 @@ a {
     border-style: solid;
     border-width: 2px;
     border-color: #dddddd;
+    color:  #4aaaa5;
 }
 
 #cm {
     border-bottom-style: solid;
-    border-bottom-color: #666666;
+    border-bottom-color: #dddddd;
     border-bottom-width: 2px;
+    position: relative;
+    top: -10px;
+    padding-bottom: 10px;
 }
 
 #summary {
@@ -105,6 +115,7 @@ a {
     width: 100%;
     font-family: Arial, Helvetica, sans-serif;
     text-indent: 5mm;
+    color: #777777;
 }
 
 #pic {
@@ -123,10 +134,22 @@ p {
 .c1 {
     float: left;
     width: 33.333%;
+    padding-left: 5px;
+    padding-right: 10px;
+}
+
+.c2 {
+    float: left;
+    width: 33.333%;
     padding-left: 10px;
     padding-right: 10px;
-    padding-top: 10px;
-    
+}
+
+.c3 {
+    float: left;
+    width: 33.333%;
+    padding-left: 10px;
+    padding-right: 15px;
 }
 
 footer {
@@ -141,4 +164,7 @@ footer {
     padding-top: 10px;
     font-family: Arial, Helvetica, sans-serif;
     color: #eeeeee;
+    border-top-style: solid;
+    border-top-width: 8px;
+    border-top-color: #4aaaa5;
 }
