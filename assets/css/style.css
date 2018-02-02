@@ -32,7 +32,7 @@ header {
     padding-right: 40px;
 }
 
-#links {
+nav {
     float: right;
     color: #666666;
     position: relative;
@@ -164,7 +164,12 @@ p {
     border-style: solid;
     border-color: #dddddd;
     color: #4aaaa5;
-    text-align: center;
+    text-align: left;
+}
+
+h3 {
+    position: relative;
+    left: 5%;
 }
 
 .projects {
@@ -180,7 +185,9 @@ p {
     position: absolute;
     width: 150px;
     height: 150px;
-    background-color: #4aaaa5;
+    border-color: #4aaaa5;
+    border-width: 2px;
+    border-style: ridge;
 }
 
 .pro-1 {
@@ -239,11 +246,11 @@ p {
     padding-bottom: 10px;
 }
 
-#efixed {
+.efixed {
     width: 90%;
     position: relative;
     left: 5%;
-    top: 70px;
+    top: 45px;
     color: #777777;
 }
 
@@ -261,16 +268,16 @@ input {
     top: 10px;
 }
 
-#message {
+textarea {
     position: relative;
     top: 10px;
-    height: 100px;
+    height: 130px;
 }
 
 #submit {
     position: relative;
     left: 5%;
-    top: 95px;
+    top: 75px;
     width: 15%;
     height: 40px;
     background-color: #4aaaa5;
