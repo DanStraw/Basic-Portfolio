@@ -192,30 +192,50 @@ h3 {
 
 .pro-1 {
     top: 20px;
+    position: relative;
+}
+
+.pictext {
+    position: absolute;
+    top: 0px;
+    color: #dddddd;
+    background-color: #4aaaa5;
+    opacity: .8;
+    text-align: center;
+}
+
+#ss {
+    position: relative;
+    right: 6px;
 }
 
 .pro-2 {
     top: 20px;
     left: 217.5px;
+    filter: grayscale(90%);
 }
 
 .pro-3 {
     top: 20px;
     left: 433px;
+    filter: grayscale(90%);
 }
 
 .pro-4 {
     top: 205px;
+    filter: grayscale(90%);
 }
 
 .pro-5 {
     top: 205px;
     left: 217.5px;
+    filter: grayscale(90%);
 }
 
 .pro-6 {
     top: 205px;
     left: 433px;
+    filter: grayscale(90%);
 }   
 
 .email_box {
@@ -283,6 +303,7 @@ textarea {
     background-color: #4aaaa5;
     border: none;
     color: #eeeeee;
+    
 }
 
 footer {
